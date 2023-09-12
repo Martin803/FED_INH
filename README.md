@@ -59,8 +59,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Lijst met je bevindingen die in de test naar voren kwamen:
 
   Headings worden duidelijk uitgesproken en zijn goed te navigeren.
+  
   Links van producten zijn erg duidelijk er wordt gezegd welk product het om gaat en hoeveel het kost.
+  
   Learn more links geven ook aan waar de Learn more link over gaat.
+  
 
 </details>
 
