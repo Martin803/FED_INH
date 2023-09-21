@@ -75,7 +75,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  <img src="readme-images/breakdownwebsite.jpg" width="375px" alt="breakdown van de hele pagina">
 
   ### dynamisch deel (bijv menu): 
   <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
@@ -95,17 +95,51 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+
+  Ik heb een klein beginnetje kunnen maken maar nog niet zoveel als ik wou door gebrek aan tijd.
+  Ik ben bezig geweest met de fonts goed te krijgen en wat html structuur maar dat is nog niet helemaal af/gelukt.
+
+  fotos komen nog
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+ 
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  Punten per student uit mijn groepje
+
+  Martin
+
+  - Maakt het uit wat voor soort bestand een afbeelding is? (Ex. png svg jpg webp)
+  - Hoe hou ik dit icoontje altijd de zelfde plek in het scherm
+  - hoe zorg ik dat iets verdwijnt als ik scroll
+  - Welke waardes zijn het handigst om te gebruiken als je alles responsive wil houden?
+
+  Rosalie
+
+  - hoe laat ik een uitklapmenu groeien
+  - hoe vergroot ik een image binnen een bepaalde box zonder dat die er buiten komt
+
+  Leanne
+
+  - hoe maak je de afbeelding van het logo een hidden H1 in de HTML?
+  - Moet er voor de ul een nav?
+  - bij H2 "populair" waar doe je een img tag?
+  - Hoe schrijf ik een bepaald stukje van de HTML van de footer?
+
+  Chimene
+
+  - Hoe kan ik knoppen/afbeeldingen juist downloaden van de website
+  - Hoe kan ik het lettertype van mijn website nu in mijn css krijgen
+  - Maakt het uit of je png gebruikt of moet je svg gebruiken
+  - Meerdere links stylen tegelijk in css. doe ik nu met classes, maar kan dit ook makkelijker
+
+  Kim
+
+  - Hoe maak je een pauze knop voor een carrousel?  
+  - Hoe maak ik de gekleurde ronde onderkanten bij de sections?
+  - Hoe loop je een animatie? 
+  - Waarvoor mocht je nou precies wel een class voor gebruiken?
+
 
 
   ### Verslag van meeting

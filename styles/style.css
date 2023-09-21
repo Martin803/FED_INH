@@ -1,31 +1,43 @@
-/**************/
-/* CSS REMEDY */
-/**************/
+/*CSS REMEDY*/
+
 *, *::after, *::before {
   box-sizing:border-box;  
 }
+/*CUSTOM PROPERTIES*/
 
-
-
-
-
-
-/*********************/
-/* CUSTOM PROPERTIES */
-/*********************/
 :root {
-	/* startje */
-	--color-text:#111;
-	--color-background:#eee;
+	--color-background1:#2B2B2B;
+	--color-background2:#FFFFFF;
+	--color-background3:#F2F2F2;
 }
 
+/*Fonts*/
 
+@font-face {
+	font-family: 'roboto';
+	src: url("roboto-v18-latin-regular.woff2") format(".woff2");
+}
 
+/*Header*/
 
+header p {
+	background-color: var(--color-background1);
+	color: var(--color-background2);
+	margin: auto;
+	font-size: 16px;
+	font-weight: 400;
+	font-family: 'roboto';
+}
 
-/****************/
-/* JOUW STYLING */
-/****************/
+header p a {
+	background-color: var(--color-background1);
+	color: var(--color-background2);
+	font-size: 16px;
+	font-weight: 400;
+}
 
-/* jouw code */
+/********/
 
+body {
+	margin: auto;
+}
