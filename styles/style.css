@@ -30,11 +30,11 @@
 .svg-icon path,
 .svg-icon polygon,
 .svg-icon rect {
-  fill: black;
+  fill: var(--color-background1);
 }
 
 .svg-icon circle {
-  stroke: black;
+  stroke: var(--color-background1);
   stroke-width: 1;
 }
 
@@ -58,8 +58,7 @@
   nav {
     position:static;
     translate:unset;
-    padding:0;
-    
+    padding:0;  
     background:none;
   }
   
@@ -103,13 +102,19 @@
 
 /*Header*/
 
+/* header:not(p){
+	top: 0;
+	overflow: hidden;
+	position: fixed;
+} */
+
 header{
 	/* display: flex;
 	justify-content: space-between;
 	align-items:center;
   
-  	position:sticky;
-  	top:0; */
+  	position:sticky;*/
+  	top:1.5em; 
 	margin: 0;
 	background-color: var(--color-background2);
 	display: flex;
@@ -228,38 +233,275 @@ nav details ul li{
 
 /*main*/
 
-main button:first-of-type{
+main{
+	margin: 1em;
+}
+
+main > button{
 	bottom: 10px;
     right: 10px;
     position: fixed;
     z-index: 10;
-	background-color: black;
-	border: white;
+	background-color: var(--color-background1);
+	border: var(--color-background2);
 	height: 62px;
 	width: 62px;
 }
 
 /*sections*/
 
+.business article{
+	margin-bottom: 1em;
+}
 
+.company article{
+	margin-bottom: 1em;
+}
+
+.featured article{
+	margin-bottom: 1em;
+}
+
+/*Featured section*/
+
+.featured article:nth-of-type(2) h2{
+	text-align: center;
+}
+
+.featured article:nth-of-type(2) p{
+	text-align: center;
+}
+
+.featured article:nth-of-type(2) a{
+	text-align: center;
+	display: block;
+}
+
+.featured article:nth-of-type(2) div{
+	padding-left: 1.5em;
+}
+
+.featured h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+}
+
+.featured h2{
+	font-family: 'Roboto', sans-serif;
+	/* font-weight: 200; */
+	font-size: 1.25em;
+}
+
+
+.featured > h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+
+.featured h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+}
+
+.featured p{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+}
+
+.featured a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.875em;
+	color: var(--color-background1);
+}
+
+.featured article{
+	background-color: var(--color-background3);
+}
+
+.featured div{
+	padding: 1.5em;
+}
+
+.featured article:first-of-type img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 225px;
+	width: 263px;
+	padding: 24px;
+}
+
+.featured article:nth-of-type(2) img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 295px;
+	width: 295px;
+}
+
+.featured article:nth-of-type(3) img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 250px;
+	width: 343px;
+	object-fit: cover;
+}
+
+.featured article button{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	background-color: transparent;
+	border: 1px solid var(--color-background1);
+	padding: 8px 16px;
+}
+
+/*Shop business section*/
+
+.business article:nth-of-type(2) h2{
+	text-align: center;
+}
+
+.business article:nth-of-type(2) p{
+	text-align: center;
+}
+
+.business article:nth-of-type(2) a{
+	text-align: center;
+	display: block;
+}
+
+.business article:nth-of-type(2) div{
+	padding-left: 1.5em;
+}
+
+.business h1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+}
+
+.business h2{
+	font-family: 'Roboto', sans-serif;
+	/* font-weight: 200; */
+	font-size: 1.25em;
+}
+
+
+.business > h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+
+.business h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+}
+
+.business p{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+}
+
+.business a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.875em;
+	color: var(--color-background1);
+}
+
+.business article{
+	background-color: var(--color-background3);
+}
+
+.business div{
+	padding: 1.5em;
+}
+
+.business article:first-of-type img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 225px;
+	width: 263px;
+	padding: 24px;
+}
+
+.business article:nth-of-type(2) img:nth-of-type(1){
+	padding-left: 1.5em;
+	padding-top: 1.5em;
+}
+
+.business article:nth-of-type(2) img:nth-of-type(2){
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 295px;
+	width: 295px;
+}
+
+.business article:nth-of-type(3) img{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+	height: 250px;
+	width: 343px;
+	object-fit: cover;
+}
+
+.business article button{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	background-color: transparent;
+	border: 1px solid var(--color-background1);
+	padding: 8px 16px;
+}
+
+/*Blog section*/
 
 .company h1{
 	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
 }
 
 .company h2{
 	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+
+.company h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+}
+
+.company p{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+}
+
+.company a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.875em;
+	color: var(--color-background1);
 }
 
 .company article{
 	background-color: var(--color-background3);
 }
 
-.company img{
-	width: 343px;
-	height: 225px;
-	object-fit: cover;
+.company div{
+	padding: 1.5em;
 }
+
+.company img{
+	object-fit: cover;
+	max-width: 100%;
+    height: auto;
+}
+
+/*logos onderaan pagina*/
+
 .logo h1{
 	text-align: center;
 	font-family: 'Roboto', sans-serif;
