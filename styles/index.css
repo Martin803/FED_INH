@@ -1,0 +1,406 @@
+/*main*/
+
+main{
+	margin: 1em;
+}
+
+main > button{
+	bottom: 10px;
+    right: 10px;
+    position: fixed;
+    z-index: 10;
+	background-color: var(--color-background1);
+	border: var(--color-background2);
+	height: 3.875em;
+	width: 62px;
+}
+
+/*carousel*/
+
+/*  https://chat.openai.com/  */
+
+/* deze styling is gemaakt met chatgpt hierin heb ik mijn eigen styles mee gemixt om het in de huisstijl van western digital te krijgen*/
+
+.carousel-container {
+	position: relative;
+	width: 100%;
+	overflow: hidden;
+}
+
+.carousel-images {
+	display: flex;
+	transition: transform 0.5s ease-in-out;
+	overflow: hidden;
+	width: 200%;
+}
+
+.carousel-slide {
+	flex: 0 0 50%;
+	box-sizing: border-box;
+	text-align: left;
+	position: relative;
+}
+
+.carousel-slide img {
+	width: 100%;
+	min-height: 300px;
+	max-height: 500px;
+	object-fit: cover;
+}
+
+.carousel-content {
+	box-sizing: border-box;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+	color: #fff;
+	text-align: left;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(0, 0, 0, 0.7);
+}
+
+.carousel-title {
+	font-size: 24px;
+	font-family: 'roboto';
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+.carousel-description {
+	font-family: 'roboto';
+	font-size: 16px;
+	margin-bottom: 10px;
+}
+
+.learn-more-button {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 500;
+	background-color: var(--color-background2);
+	border: 1px solid var(--color-background2);
+	padding: 8px 16px;
+	align-self: flex-start;
+	margin-top: auto;
+}
+
+.carousel-button.prev,
+.carousel-button.next {
+	background-color: #D1D1D7;
+	color: var(--color-background1);
+	padding: 10px 20px;
+	border: none;
+	border-radius: 100px;
+	font-size: 16px;
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.carousel-button.prev {
+	left: 2px;
+}
+
+.carousel-button.next {
+	right: 2px;
+}
+
+/*sections*/
+
+.business article{
+	margin-bottom: 1em;
+}
+
+.company article{
+	margin-bottom: 1em;
+}
+
+.featured article{
+	margin-bottom: 1em;
+}
+
+/*Featured section*/
+
+.featured {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+}
+
+.featured h1,
+.featured h2,
+.featured h3,
+.featured p,
+.featured button,
+.featured article,
+.featured div {
+  font-family: 'Roboto', sans-serif;
+}
+
+.featured h1 {
+  font-size: 1.25em;
+}
+
+.featured h2,
+.featured h3 {
+  font-size: 1.25em;
+}
+
+.featured h3 {
+  font-size: 1em;
+}
+
+.featured p {
+  line-height: 1.5em;
+}
+
+.featured article {
+  background-color: var(--color-background3);
+}
+
+.featured div {
+  padding: 1.5em;
+}
+
+.featured article img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-height: 100%;
+}
+
+.featured article button {
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid var(--color-background1);
+  padding: 8px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .featured {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+  }
+
+  .featured article {
+    width: 100%;
+  }
+
+  .featured article:first-of-type,
+  .featured article:nth-of-type(2) {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  .featured article img {
+    width: 40%; 
+    max-height: 100%;
+    height: auto;
+    padding: 0;
+  }
+
+  .featured article:last-of-type {
+    grid-column: span 2;
+  }
+}
+
+/*Shop business section*/
+
+.business {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5em;
+}
+
+.business h1,
+.business h2,
+.business > h2,
+.business h3,
+.business p,
+.business a,
+.business article,
+.business div,
+.business article button {
+  font-family: 'Roboto', sans-serif;
+}
+
+.business h1 {
+  font-size: 1.25em;
+}
+
+.business h2,
+.business > h2 {
+  font-size: 1.25em;
+}
+
+.business > h2 {
+  font-weight: 200;
+  font-size: 1em;
+}
+
+.business h3 {
+  font-size: 1.25em;
+}
+
+.business p {
+  line-height: 1.5em;
+}
+
+.business a {
+  font-size: 0.875em;
+  color: var(--color-background1);
+}
+
+.business article {
+  background-color: var(--color-background3);
+}
+
+.business div {
+  padding: 1.5em;
+}
+
+.business article:first-of-type img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 225px;
+  width: 263px;
+  padding: 24px;
+}
+
+.business article:nth-of-type(2) img:nth-of-type(1) {
+  padding-left: 1.5em;
+  padding-top: 1.5em;
+}
+
+.business article:nth-of-type(2) img:nth-of-type(2) {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 295px;
+  width: 295px;
+}
+
+.business article:nth-of-type(3) img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 343px;
+  object-fit: cover;
+}
+
+.business article button {
+  font-weight: 500;
+  background-color: transparent;
+  border: 1px solid var(--color-background1);
+  padding: 8px 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .business {
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5em;
+  }
+
+  .business article {
+    width: 100%;
+  }
+
+  .business article:first-of-type {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100%;
+  }
+
+  .business article:nth-of-type(2),
+  .business article:nth-of-type(3) {
+    height: 100%;
+  }
+
+  .business article:last-of-type img {
+    width: 50%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .business article:last-of-type {
+    grid-column: span 2;
+  }
+}
+
+/*Blog section*/
+
+.companytexth1{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+}
+
+.companytexth2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+
+.company h2{
+	font-family: 'Roboto', sans-serif;
+	font-weight: 200;
+	font-size: 1em;
+}
+
+.company h3{
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.25em;
+}
+
+.company p{
+	font-family: 'Roboto', sans-serif;
+	line-height: 1.5em;
+}
+
+.company a{
+	font-family: 'Roboto', sans-serif;
+	font-size: 0.875em;
+	color: var(--color-background1);
+}
+
+.company article{
+	background-color: var(--color-background3);
+}
+
+.company div{
+	padding: 1.5em;
+}
+
+.company img{
+	object-fit: cover;
+	max-width: 100%;
+    height: auto;
+}
+
+.company {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.company article {
+  flex: 1;
+  margin: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .company article {
+    flex: 100%;
+  }
+}
