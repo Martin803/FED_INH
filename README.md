@@ -166,21 +166,44 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
- 
- Martin
+  
+  Martin
 
-- Hoe zorg ik ervoor dat de nav bar blijft staan
-- Mag ik hier classes gebruiken?
-- Gebruik van pixels
+- Hoe krijg ik dit icoon helemaal links
+- Hoe maak ik dit carousel
+- Hoe is dit handig om te maken met grid.
+- Moeten alle buttons naar iets leiden?
+
+
+  Rosalie
+  
+- hoe krijg ik mijn text over een header
+- hoe laat ik mijn uitklapmenu groeien
+
+  Leanne
+
+  - hoe maak je de afbeelding van het logo een hidden H1 in de HTML?
+  - Moet er voor de ul een nav?
+  - bij H2 "populair" waar doe je een img tag?
+  - Hoe schrijf ik een bepaald stukje van de HTML van de footer?
+
+  Chimene
+
+- Hoe connect ik mijn tweede CSS bestand juist aan de html?
+- Mijn nav werkt niet :(
+- Hoe doe ik ook alweer het juiste lettertype importeren?
+- Hoe verwijder je iets op Github?
+
+  Kim
+
+ - Lettertype toepassen werkt niet bij de  H2 (?)
+  - background-size: cover; geeft error aan?
+  - Hoe fix ik de nav button
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
-  - nog een punt
-- ...
+- ik ben goed geholpen door de student assistenten en ik kan weer verde met coderen.
 
 </details>
 
@@ -212,14 +235,40 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 
   ### Agenda voor meeting
-  samen met je groepje opstellen
+  
+ Martin
 
-  | student 1      | student 2          | student 3    | student 4        |
-  | ---            | ---                | ---          | ---              |
-  | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-  | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+- Hoe zorg ik ervoor dat de nav bar blijft staan
+- Mag ik hier classes gebruiken?
+- Gebruik van pixels
 
+
+  Rosalie
+  
+- 
+
+  Leanne
+
+- Het juiste lettertype werkt niet
+- Hoe doe je de zoekbalk in de header een rij naar onder
+- Hoe zet ik de H2 en A (Tickets) op de goede positie
+- Hoe verander ik volgorde van afbeelding + plaatje? Met flex? Bij “Uitgelicht”
+- Het paarse lijntje onder “Recent bekeken” en “Populair” hoe kan ik dat het beste doen?
+
+  Chimene
+
+- meer uitleg over @media Queries. 
+- wil een border om mijn element, maar ik krijg het niet voor elkaar.
+- Jusitify conent lijkt niet te werken 
+- Hoe krijg ik een afbeelding links en tekst rechts met flex? 
+
+  Kim
+
+- Hoe fix ik de padding bij de icoontjes in de NAV?
+- Hoe voeg ik een to top button toe
+- Hoe zat het ook en weer met de 2e pagina en de stylesheets?
+- -webkit-background-clip: text; geeft een error, is dat OK?
+- Waar kan ik het beste terecht als ik hierna tegen problemen oploop met Javascript?
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
@@ -263,19 +312,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 ## Bronnenlijst
 
 <details open>
-  <summary>continu bijhouden terwijl je werkt</summary>
+ 1. https://assets.codepen.io/274456/ui-icon-cross.svg icoontjes
 
-  Nb. Wees specifiek ('css-tricks' als bron is bijv. niet specifiek genoeg). 
-  Nb. ChatGpT en andere AI horen er ook bij.
-  Nb. Vermeld de bronnen ook in je code.
+ 2. http://svgicons.sparkk.fr/ voor icoontjes
 
-  1. https://assets.codepen.io/274456/ui-icon-cross.svg icoontjes
-  2. http://svgicons.sparkk.fr/ voor icoontjes
-  3. Westerndigital.com voor images en design
-  4. https://chat.openai.com/ ik heb het carousel gemaakt met behulp van chatgpt in de code staat precies wat door de ai bot is geschreven. Ik heb ook chatgpt af en toe gebruikt voor kleine vragen hoe ik iets kom doen of bijvoorbeeld om mijn code op te schonen.
-  5. https://www.w3schools.com/ voor kleine vragen.
-  6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ voor flex gerelateerde dingen.
-  7. https://codepen.io/shooft/live/MWZYoqa hamburger menu van Sanne
+ 3. https://www.westerndigital.com/ voor images en design
 
+ 4. https://icons8.com/icons/set/x icoon
+    
+ 6. https://chat.openai.com/ ik heb het carousel gemaakt met behulp van chatgpt in de code staat precies wat door de ai bot is geschreven. Ik heb ook chatgpt af en toe gebruikt voor kleine vragen hoe ik iets kom doen of bijvoorbeeld om mijn code op te schonen.
+  
+ 8. https://www.w3schools.com/ voor kleine vragen.
+    
+ 9. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ voor flex gerelateerde dingen.
 
+ 10. https://codepen.io/shooft/live/MWZYoqa hamburger menu van Sanne
+  
 </details>
