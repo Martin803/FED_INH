@@ -313,11 +313,19 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
 <details open>
  1. https://assets.codepen.io/274456/ui-icon-cross.svg icoontjes
-  2. http://svgicons.sparkk.fr/ voor icoontjes
-  3. Westerndigital.com voor images en design
-  4. https://chat.openai.com/ ik heb het carousel gemaakt met behulp van chatgpt in de code staat precies wat door de ai bot is geschreven. Ik heb ook chatgpt af en toe gebruikt voor kleine vragen hoe ik iets kom doen of bijvoorbeeld om mijn code op te schonen.
-  5. https://www.w3schools.com/ voor kleine vragen.
-  6. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ voor flex gerelateerde dingen.
-  7. https://codepen.io/shooft/live/MWZYoqa hamburger menu van Sanne
-  8.
+
+ 2. http://svgicons.sparkk.fr/ voor icoontjes
+
+ 3. Westerndigital.com voor images en design
+
+ 4. https://icons8.com/icons/set/x icoon
+    
+ 6. https://chat.openai.com/ ik heb het carousel gemaakt met behulp van chatgpt in de code staat precies wat door de ai bot is geschreven. Ik heb ook chatgpt af en toe gebruikt voor kleine vragen hoe ik iets kom doen of bijvoorbeeld om mijn code op te schonen.
+  
+ 8. https://www.w3schools.com/ voor kleine vragen.
+    
+ 9. https://css-tricks.com/snippets/css/a-guide-to-flexbox/ voor flex gerelateerde dingen.
+
+ 10. https://codepen.io/shooft/live/MWZYoqa hamburger menu van Sanne
+  
 </details>
