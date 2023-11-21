@@ -316,7 +316,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
  2. http://svgicons.sparkk.fr/ voor icoontjes
 
- 3. Westerndigital.com voor images en design
+ 3. https://www.westerndigital.com/ voor images en design
 
  4. https://icons8.com/icons/set/x icoon
     
