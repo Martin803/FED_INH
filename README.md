@@ -317,5 +317,9 @@
  10. https://codepen.io/shooft/live/MWZYoqa hamburger menu van Sanne
 
  11. https://codepen.io/siiron/pen/QWwLoMy?editors=1100 css image carousel.
+
+ 12. https://www.unicodepedia.com/unicode/miscellaneous-symbols/2605/black-star/ icoontjes
+
+ 13. https://grid.layoutit.com/
   
 </details>
