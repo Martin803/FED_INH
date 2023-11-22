@@ -27,11 +27,11 @@
   [Western Digital](https://www.westerndigital.com/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+ Home pagina
   <img src="readme-images/breakdownwebsite.jpg" width="375px" alt="omschrijving van de pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  hier de naam van de pagina  
+  Product pagina 
   <img src="readme-images/afbeelding-2depagina.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -60,16 +60,9 @@
 ## Breakdownschets (week 1)
 
 <details>
-  <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
   <img src="readme-images/breakdownwebsite.jpg" width="375px" alt="breakdown van de hele pagina">
-
-  ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
-
-  ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
 
 </details>
 
@@ -87,7 +80,8 @@
   Ik heb een klein beginnetje kunnen maken maar nog niet zoveel als ik wou door gebrek aan tijd.
   Ik ben bezig geweest met de fonts goed te krijgen en wat html structuur maar dat is nog niet helemaal af/gelukt.
 
-  fotos komen nog
+  <img src="readme-images/progress_css1.png" width="375px" alt="css progress">
+  <img src="readme-images/progress_html1.png" width="375px" alt="html progress">
 
 
   ### Agenda voor meeting
