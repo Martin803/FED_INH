@@ -1,333 +1,269 @@
 <!DOCTYPE html>
 <html lang="en">
-	
-<head>
-	<meta charset="UTF-8">
-	<meta name="author" content="Martin Schaapherder">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	
-	<title>Western Digital</title>
-	
-	<link href="styles/index.css" rel="stylesheet">
-	<link rel="stylesheet" href="styles/general.css">
-	<link rel="icon" type="image/svg+xml" href="images/flavicon.ico">
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-
-<header>
-		<h1>Western Digital</h1>
-		<img src="/WesternDigital/images/header-main-logo.svg" alt="Western digital logo">
-
-		<p>Free standard shipping on all eligible orders over $25. <a href="">Details and Exclusions</a></p>
-
-
-		<button aria-hidden="true">
-			<svg class="svg-icon" viewbox="0 0 20 20">
-			<path d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
-								c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
-								s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
-								c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path>
-			</svg>
-		</button>
-
-		<a href="" class="icon">
-			<svg class="svg-icon" viewbox="0 0 20 20">
-			<path  d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
-			<path  d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
-			<path  d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
-			</svg>
-			<svg class="svg-icon" viewbox="0 0 20 20">
-			<path fill="none" d="M18.109,17.776l-3.082-3.081c-0.059-0.059-0.135-0.077-0.211-0.087c1.373-1.38,2.221-3.28,2.221-5.379c0-4.212-3.414-7.626-7.625-7.626c-4.212,0-7.626,3.414-7.626,7.626s3.414,7.627,7.626,7.627c1.918,0,3.665-0.713,5.004-1.882c0.006,0.085,0.033,0.17,0.098,0.234l3.082,3.081c0.143,0.142,0.371,0.142,0.514,0C18.25,18.148,18.25,17.918,18.109,17.776zM9.412,16.13c-3.811,0-6.9-3.089-6.9-6.9c0-3.81,3.089-6.899,6.9-6.899c3.811,0,6.901,3.09,6.901,6.899C16.312,13.041,13.223,16.13,9.412,16.13z"></path>
-			</svg>
-		</a>
-
-		<nav>
-			<button aria-hidden="true"><img src="https://assets.codepen.io/274456/ui-icon-cross.svg" alt="" /></button>
-			<a href="">Sign In</a>
-
-			<details>
-  			<summary><img src="images/arrow-down.png" alt>Products</summary>
-			<ul>
-  				<li>By Category</li>
-				<li>By Use</li>
-				<li>By Brand</li>
-				<li>Promotions</li>
-			</ul>
-			</details>
-
-			<details>
-  			<summary><img src="images/arrow-down.png" alt>Solutions</summary>
-			<ul>
-  				<li>Learn & Compare</li>
-				<li>Use Case</li>
-				<li>Industries</li>
-			</ul>
-			</details>
-
-			<details>
-  			<summary><img src="images/arrow-down.png" alt>Support</summary>
-			<ul>
-  				<li>Product Support</li>
-				<li>Store Support</li>
-			</ul>
-			</details>
-
-			<details>
-  			<summary><img src="images/arrow-down.png" alt>Company</summary>
-			<ul>
-  				<li>About us</li>
-				<li>Corporate Responsibility</li>
-				<li>News & Events</li>
-			</ul>
-			</details>
-
-		</nav> 
-
-	</header>
-
-	<section class="carousel">
-<div class="carousel-container">
-  <div class="carousel-images">
-    <div class="carousel-slide">
-      <img src="/WesternDigital/images/sliderimage1.jpg" alt="silde image 1 steamdeck storage">
-      <div class="carousel-content">
-        <div class="carousel-title">WD Black SN770M</div>
-        <div class="carousel-description">Seamless storage upgrade for Steam Deck and ROG Ally handhelds</div>
-		<a href="product.html" target="_blank">
-        <button class="learn-more-button">Learn More</button>
-		</a>
-      </div>
-    </div>
-    <div class="carousel-slide">
-      <img src="/WesternDigital/images/sliderimage2.jpg" alt="slide Image 2 G-RaidMIrror">
-      <div class="carousel-content">
-        <div class="carousel-title">G-Raid Mirror</div>
-        <div class="carousel-description">Professional-grade, high-performance storage for fast, reliable backups and project workflows.</div>
-        <button class="learn-more-button">Learn More</button>
-      </div>
-    </div>
-  </div>
-
-  <button class="carousel-button prev">❮</button>
-  <button class="carousel-button next">❯</button>
-</div>
-		</section>
-
-	<main>
-		<button>
-			<svg xmlns="http://www.w3.org/2000/svg" width="47.222" height="40.319" viewbox="0 0 47.222 40.319">
-			<g id="Group_24135" data-name="Group 24135" transform="translate(-561.669 -599.422)">
-			<path id="Path_7958" data-name="Path 7958" d="M73.174,72l-4.3,3.447c-.66.659-2.64.74-2.64-.741V72A5.249,5.249,0,0,1,61,66.763V54.234A5.249,5.249,0,0,1,66.234,49H86.5a5.249,5.249,0,0,1,5.234,5.234V66.763A5.249,5.249,0,0,1,86.5,72Z" transform="translate(501.669 551.422)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-			<path id="Path_9826" data-name="Path 9826" d="M79.562,72l4.3,3.447c.66.659,2.64.74,2.64-.741V72a5.249,5.249,0,0,0,5.234-5.233V54.234A5.249,5.249,0,0,0,86.5,49H66.234A5.249,5.249,0,0,0,61,54.234V66.763A5.249,5.249,0,0,0,66.234,72Z" transform="translate(516.154 562.837)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-			</g>
-			</svg>
-		</button>
-
-		<section class="featured">
-			<h1>Featured Products</h1>
-			<h2>View all Products</h2>
-
-			<article>
-				<img src="/WesternDigital/images/wdfeaturedproducts.webp" alt="wdfeaturedproducts">
-				<div>
-					<h2>Expand Your Gaming Storage</h2>
-					<p>Ignite your game with faster, bigger storage — however you play.</p>
-					<button>Shop Now</button>
-				</div>
-			</article>
-
-
-			<article>
-				<img src="/WesternDigital/images/wdgrafitti.webp" alt="western digital graffiti drive">
-				<div>
-					<h2>LIMITED EDITION</h2>
-					<h3>WD_BLACK P40 Hispanic Heritage Drive</h3>
-					<p>A customized gaming drive made to celebrate Hispanic Heritage.</p>
-					<button>Learn More</button>
-				</div>
-			</article>
-
-			<article>
-				<img src="/WesternDigital/images/wdpurple1tb.png" alt="wd1tbpurple">
-				<div>
-					<h2>WD Purple Surveillance Hard Drive.</h2>
-					<p>Industry-Leading Storage. Surveillance You Can Trust</p>
-					<button>Shop Now</button>
-				</div>
-			</article>
-
-		</section>
-
-		<section class="business">
-			<h1>Shop Featured Business Products</h1>
-			<h2>Shop for Business</h2>
-
-			<article>
-				<img src="/WesternDigital/images/sandiskblackdrive.png" alt="">
-				<div>
-					<h2>PRO-G40 SSD</h2>
-					<p>Ultra-fast. Ultra-rugged. Ultra-versatile with Thunderbolt & USB.</p>
-					<button>Shop Now</button>
-				</div>
-			</article>
-
-
-			<article>
-				<img src="/WesternDigital/images/Western_Digital_logo.svg" alt="">
-				<img src="/WesternDigital/images/wdblue1tb.png" alt="">
-				<div>
-					<h2>WD Blue™ SA510 SATA SSD - 1TB</h2>
-					<p>Starting at $56.99</p>
-					<a href="">Shop Now</a>
-				</div>
-			</article>
-
-			<article>
-				<img src="/WesternDigital/images/content-color.webp" alt="">
-				<div>
-					<h2>Creative. Content. Community.</h2>
-					<p>Shop recommended gear for all creators.</p>
-					<button>Shop Now</button>
-				</div>
-			</article>
-
-		</section>
-
-		<h1 class="companytexth1">Company Resources</h1>
-		<h2 class="companytexth2">View all in newsroom</h2>
-
-		<section class="company">
-			<article>
-				<img src="/WesternDigital/images/blogimage1.jpeg" alt="">
-				<div>
-				<h2>BLOG</h2>
-				<h3>Why Collaboration Matters for Climate Action</h3>
-				<p>Western Digital's newest ESG goals are bold, focused on establishing the company as a leader in sustainability. While optimization plays a role, the implementation of ambitious technology to meet these new goals is key.</p>
-				<a href="">Read More</a>
-				</div>
-			</article>
-
-			<article>
-				<img src="/WesternDigital/images/blogimage2.png" alt="">
-				<div>
-				<h2>BLOG</h2>
-				<h3>What Are Helium Hard Drives?</h3>
-				<p>While helium hard drives are not exactly designed to float in air, helium’s buoyant properties make it useful in storing more data in the same form factor. This is helium hard drives, explained.</p>
-				<a href="">Read More</a>
-				</div>
-			</article>
-
-			
-		</section>
-
-		<section class="logo">
-			<h1>Shop our Personal & Professional Storage Brands</h1>
-			
-			<div class="logos-container">
-				<img src="/WesternDigital/images/wdlogo.webp" alt="Western Digital logo oranje wd">
-				<img src="/WesternDigital/images/sandisklogo.webp" alt="SanDisk logo">
-				<img src="/WesternDigital/images/sandiskproflogo.webp" alt="SanDisk Professional logo">
-				<img src="/WesternDigital/images/wdblacklogo.webp" alt="Western Digital Black logo">
-			</div>
-		</section>
-
-	</main>
-
-	<footer>
-
-		<ul>
-			<li><img src="/WesternDigital/images/westerndigitalwhite.svg" alt=""></li>
-		</ul>
-
-		<ul>
-			<li><img src="/WesternDigital/images/wdgray.png" alt=""></li>
-			<li><img src="/WesternDigital/images/wdblacklogo.webp" alt=""></li>
-			<li><img src="/WesternDigital/images/sandiskgrey.png" alt=""></li>
-			<li><img src="/WesternDigital/images/sandiskpgrey.png" alt=""></li>
-		</ul>
-
-		<h5></h5>
-
-		<p>Country/Region: United States</p>
-
-		<h5></h5>
-
-		<ul>
-			<li>Shopping</li>
-			<li>My Account</li>
-			<li>Sign Up for Email</li>
-			<li>Discounts & Promotions</li>
-			<li>Product Portfolio</li>
-			<li>Warranty Policy</li>
-			<li>Return Policy</li>
-			<li>Financing Options</li>
-			<li>Distributors & Resellers</li>
-			<li>Shopping FAQ</li>
-		</ul>
-
-		<ul>
-			<li>Programs</li>
-			<li>Business Account Benefits</li>
-			<li>Data Recovery</li>
-			<li>Recycle Program</li>
-			<li>Western Digital Credit</li>
-			<li>Partner Programs</li>
-			<li>Affiliate Program</li>
-			<li>Philanthropic Programs</li>
-			<li>Western Digital Capital</li>
-		</ul>
-
-		<ul>
-			<li>Company</li>
-			<li>About Us</li>
-			<li>News & Events</li>
-			<li>Leadership</li>
-			<li>Corporate Responsibility</li>
-			<li>Privacy Center</li>
-			<li>Blog</li>
-			<li>Careers</li>
-			<li>Investors</li>
-			<li>Office Locations</li>
-			<li>Contact Us</li>
-		</ul>
-    	
-		<ul>
-			<li>Support</li>
-			<li>Get Help</li>
-			<li>Resource Library</li>
-			<li>Product Security</li>
-		</ul>
-
-		<p>Online Store Support: US 855-493-7867 Monday — Friday, 8am — 5pm PST</p>
-
-		<ul>
-			<li><a href=""><img src="" alt=""></a></li>
-			<li><a href=""><img src="" alt=""></a></li>
-			<li><a href=""><img src="" alt=""></a></li>
-			<li><a href=""><img src="" alt=""></a></li>
-			<li><a href=""><img src="" alt=""></a></li>
-		</ul>
-
-		<img src="" alt="">
-
-		<h6></h6>
-
-		<p>Privacy Legal Cookie Statement About Ads Trademarks Terms of Sale Product Compliance Do Not Sell or Share My Personal Information 
- Cookie Preferences</p>
-
-		<h5></h5>
-
-		<p>© 2023 Western Digital Corporation or its affiliates. All rights reserved.</p>
-
-
-
-	</footer>
-
-	<script defer src="scripts/script.js"></script>
-</body>
-	
+   <head>
+      <meta charset="UTF-8">
+      <meta name="author" content="Martin Schaapherder">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <title>Western Digital</title>
+      <link href="styles/index.css" rel="stylesheet">
+      <link rel="stylesheet" href="styles/general.css">
+      <link rel="icon" type="image/svg+xml" href="images/flavicon.ico">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+   </head>
+   <body>
+      <header>
+         <h1>Western Digital</h1>
+         <a href="index.html"><img src="/WesternDigital/images/header-main-logo.svg" alt="Western digital logo"></a>
+         <p>Free standard shipping on all eligible orders over $25. <a href="">Details and Exclusions</a></p>
+         <button aria-hidden="true">
+            <svg class="svg-icon" viewbox="0 0 20 20">
+               <path d="M3.314,4.8h13.372c0.41,0,0.743-0.333,0.743-0.743c0-0.41-0.333-0.743-0.743-0.743H3.314
+                  c-0.41,0-0.743,0.333-0.743,0.743C2.571,4.467,2.904,4.8,3.314,4.8z M16.686,15.2H3.314c-0.41,0-0.743,0.333-0.743,0.743
+                  s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,15.2,16.686,15.2z M16.686,9.257H3.314
+                  c-0.41,0-0.743,0.333-0.743,0.743s0.333,0.743,0.743,0.743h13.372c0.41,0,0.743-0.333,0.743-0.743S17.096,9.257,16.686,9.257z"></path>
+            </svg>
+         </button>
+         <a href="" class="icon">
+            <svg class="svg-icon" viewbox="0 0 20 20">
+               <path  d="M17.72,5.011H8.026c-0.271,0-0.49,0.219-0.49,0.489c0,0.271,0.219,0.489,0.49,0.489h8.962l-1.979,4.773H6.763L4.935,5.343C4.926,5.316,4.897,5.309,4.884,5.286c-0.011-0.024,0-0.051-0.017-0.074C4.833,5.166,4.025,4.081,2.33,3.908C2.068,3.883,1.822,4.075,1.795,4.344C1.767,4.612,1.962,4.853,2.231,4.88c1.143,0.118,1.703,0.738,1.808,0.866l1.91,5.661c0.066,0.199,0.252,0.333,0.463,0.333h8.924c0.116,0,0.22-0.053,0.308-0.128c0.027-0.023,0.042-0.048,0.063-0.076c0.026-0.034,0.063-0.058,0.08-0.099l2.384-5.75c0.062-0.151,0.046-0.323-0.045-0.458C18.036,5.092,17.883,5.011,17.72,5.011z"></path>
+               <path  d="M8.251,12.386c-1.023,0-1.856,0.834-1.856,1.856s0.833,1.853,1.856,1.853c1.021,0,1.853-0.83,1.853-1.853S9.273,12.386,8.251,12.386z M8.251,15.116c-0.484,0-0.877-0.393-0.877-0.874c0-0.484,0.394-0.878,0.877-0.878c0.482,0,0.875,0.394,0.875,0.878C9.126,14.724,8.733,15.116,8.251,15.116z"></path>
+               <path  d="M13.972,12.386c-1.022,0-1.855,0.834-1.855,1.856s0.833,1.853,1.855,1.853s1.854-0.83,1.854-1.853S14.994,12.386,13.972,12.386z M13.972,15.116c-0.484,0-0.878-0.393-0.878-0.874c0-0.484,0.394-0.878,0.878-0.878c0.482,0,0.875,0.394,0.875,0.878C14.847,14.724,14.454,15.116,13.972,15.116z"></path>
+            </svg>
+            <svg class="svg-icon" viewbox="0 0 20 20">
+               <path fill="none" d="M18.109,17.776l-3.082-3.081c-0.059-0.059-0.135-0.077-0.211-0.087c1.373-1.38,2.221-3.28,2.221-5.379c0-4.212-3.414-7.626-7.625-7.626c-4.212,0-7.626,3.414-7.626,7.626s3.414,7.627,7.626,7.627c1.918,0,3.665-0.713,5.004-1.882c0.006,0.085,0.033,0.17,0.098,0.234l3.082,3.081c0.143,0.142,0.371,0.142,0.514,0C18.25,18.148,18.25,17.918,18.109,17.776zM9.412,16.13c-3.811,0-6.9-3.089-6.9-6.9c0-3.81,3.089-6.899,6.9-6.899c3.811,0,6.901,3.09,6.901,6.899C16.312,13.041,13.223,16.13,9.412,16.13z"></path>
+            </svg>
+         </a>
+         <nav>
+            <button aria-hidden="true"><img src="/WesternDigital/images/exiticon.png" alt="Sluiten" /></button>
+            <details>
+               <summary><img src="images/arrow-down.png" alt>Products</summary>
+               <ul>
+                  <li>By Category</li>
+                  <li>By Use</li>
+                  <li>By Brand</li>
+                  <li>Promotions</li>
+               </ul>
+            </details>
+            <details>
+               <summary><img src="images/arrow-down.png" alt>Solutions</summary>
+               <ul>
+                  <li>Learn & Compare</li>
+                  <li>Use Case</li>
+                  <li>Industries</li>
+               </ul>
+            </details>
+            <details>
+               <summary><img src="images/arrow-down.png" alt>Support</summary>
+               <ul>
+                  <li>Product Support</li>
+                  <li>Store Support</li>
+               </ul>
+            </details>
+            <details>
+               <summary><img src="images/arrow-down.png" alt>Company</summary>
+               <ul>
+                  <li>About us</li>
+                  <li>Corporate Responsibility</li>
+                  <li>News & Events</li>
+               </ul>
+            </details>
+         </nav>
+      </header>
+      <section class="carousel">
+         <div class="carousel-container">
+            <div class="carousel-images">
+               <div class="carousel-slide">
+                  <img src="/WesternDigital/images/sliderimage1.jpg" alt="silde image 1 steamdeck storage">
+                  <div class="carousel-content">
+                     <div class="carousel-title">WD Black SN770M</div>
+                     <div class="carousel-description">Seamless storage upgrade for Steam Deck and ROG Ally handhelds</div>
+                     <a href="product.html" target="_blank">
+                     <button class="learn-more-button">Learn More</button>
+                     </a>
+                  </div>
+               </div>
+               <div class="carousel-slide">
+                  <img src="/WesternDigital/images/sliderimage2.jpg" alt="slide Image 2 G-RaidMIrror">
+                  <div class="carousel-content">
+                     <div class="carousel-title">G-Raid Mirror</div>
+                     <div class="carousel-description">Professional-grade, high-performance storage for fast, reliable backups and project workflows.</div>
+                     <button class="learn-more-button">Learn More</button>
+                  </div>
+               </div>
+            </div>
+            <button class="carousel-button prev">❮</button>
+            <button class="carousel-button next">❯</button>
+         </div>
+      </section>
+      <main>
+         <button>
+            <svg xmlns="http://www.w3.org/2000/svg" width="47.222" height="40.319" viewbox="0 0 47.222 40.319">
+               <g id="Group_24135" data-name="Group 24135" transform="translate(-561.669 -599.422)">
+                  <path id="Path_7958" data-name="Path 7958" d="M73.174,72l-4.3,3.447c-.66.659-2.64.74-2.64-.741V72A5.249,5.249,0,0,1,61,66.763V54.234A5.249,5.249,0,0,1,66.234,49H86.5a5.249,5.249,0,0,1,5.234,5.234V66.763A5.249,5.249,0,0,1,86.5,72Z" transform="translate(501.669 551.422)" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                  <path id="Path_9826" data-name="Path 9826" d="M79.562,72l4.3,3.447c.66.659,2.64.74,2.64-.741V72a5.249,5.249,0,0,0,5.234-5.233V54.234A5.249,5.249,0,0,0,86.5,49H66.234A5.249,5.249,0,0,0,61,54.234V66.763A5.249,5.249,0,0,0,66.234,72Z" transform="translate(516.154 562.837)" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+               </g>
+            </svg>
+         </button>
+         <section class="featured">
+            <h1>Featured Products</h1>
+            <h2>View all Products</h2>
+            <article>
+               <img src="/WesternDigital/images/wdfeaturedproducts.webp" alt="wdfeaturedproducts">
+               <div>
+                  <h2>Expand Your Gaming Storage</h2>
+                  <p>Ignite your game with faster, bigger storage — however you play.</p>
+                  <button>Shop Now</button>
+               </div>
+            </article>
+            <article>
+               <img src="/WesternDigital/images/wdgrafitti.webp" alt="western digital graffiti drive">
+               <div>
+                  <h2>LIMITED EDITION</h2>
+                  <h3>WD_BLACK P40 Hispanic Heritage Drive</h3>
+                  <p>A customized gaming drive made to celebrate Hispanic Heritage.</p>
+                  <button>Learn More</button>
+               </div>
+            </article>
+            <article>
+               <img src="/WesternDigital/images/wdpurple1tb.png" alt="wd1tbpurple">
+               <div>
+                  <h2>WD Purple Surveillance Hard Drive.</h2>
+                  <p>Industry-Leading Storage. Surveillance You Can Trust</p>
+                  <button>Shop Now</button>
+               </div>
+            </article>
+         </section>
+         <section class="business">
+            <h1>Shop Featured Business Products</h1>
+            <h2>Shop for Business</h2>
+            <article>
+               <img src="/WesternDigital/images/sandiskblackdrive.png" alt="">
+               <div>
+                  <h2>PRO-G40 SSD</h2>
+                  <p>Ultra-fast. Ultra-rugged. Ultra-versatile with Thunderbolt & USB.</p>
+                  <button>Shop Now</button>
+               </div>
+            </article>
+            <article>
+               <img src="/WesternDigital/images/Western_Digital_logo.svg" alt="">
+               <img src="/WesternDigital/images/wdblue1tb.png" alt="">
+               <div>
+                  <h2>WD Blue™ SA510 SATA SSD - 1TB</h2>
+                  <p>Starting at $56.99</p>
+                  <a href="">Shop Now</a>
+               </div>
+            </article>
+            <article>
+               <img src="/WesternDigital/images/content-color.webp" alt="">
+               <div>
+                  <h2>Creative. Content. Community.</h2>
+                  <p>Shop recommended gear for all creators.</p>
+                  <button>Shop Now</button>
+               </div>
+            </article>
+         </section>
+         <h1 class="companytexth1">Company Resources</h1>
+         <h2 class="companytexth2">View all in newsroom</h2>
+         <section class="company">
+            <article>
+               <img src="/WesternDigital/images/blogimage1.jpeg" alt="">
+               <div>
+                  <h2>BLOG</h2>
+                  <h3>Why Collaboration Matters for Climate Action</h3>
+                  <p>Western Digital's newest ESG goals are bold, focused on establishing the company as a leader in sustainability. While optimization plays a role, the implementation of ambitious technology to meet these new goals is key.</p>
+                  <a href="">Read More</a>
+               </div>
+            </article>
+            <article>
+               <img src="/WesternDigital/images/blogimage2.png" alt="">
+               <div>
+                  <h2>BLOG</h2>
+                  <h3>What Are Helium Hard Drives?</h3>
+                  <p>While helium hard drives are not exactly designed to float in air, helium’s buoyant properties make it useful in storing more data in the same form factor. This is helium hard drives, explained.</p>
+                  <a href="">Read More</a>
+               </div>
+            </article>
+         </section>
+         <section class="logo">
+            <h1>Shop our Personal & Professional Storage Brands</h1>
+            <div class="logos-container">
+               <img src="/WesternDigital/images/wdlogo.webp" alt="Western Digital logo oranje wd">
+               <img src="/WesternDigital/images/sandisklogo.webp" alt="SanDisk logo">
+               <img src="/WesternDigital/images/sandiskproflogo.webp" alt="SanDisk Professional logo">
+               <img src="/WesternDigital/images/wdblacklogo.webp" alt="Western Digital Black logo">
+            </div>
+         </section>
+      </main>
+      <footer>
+         <ul>
+            <li><img src="/WesternDigital/images/westerndigitalwhite.svg" alt=""></li>
+         </ul>
+         <ul class="uldiemoeilijkdoet">
+            <li><img src="/WesternDigital/images/wdgray.png" alt=""></li>
+            <li><img src="/WesternDigital/images/wdblacklogo.webp" alt=""></li>
+            <li><img src="/WesternDigital/images/sandiskgrey.png" alt=""></li>
+            <li><img src="/WesternDigital/images/sandiskpgrey.png" alt=""></li>
+         </ul>
+         <h5></h5>
+         <p>Country/Region: United States</p>
+         <h5></h5>
+         <div class="grid">
+            <ul>
+               <li>Shopping</li>
+               <li>My Account</li>
+               <li>Sign Up for Email</li>
+               <li>Discounts & Promotions</li>
+               <li>Product Portfolio</li>
+               <li>Warranty Policy</li>
+               <li>Return Policy</li>
+               <li>Financing Options</li>
+               <li>Distributors & Resellers</li>
+               <li>Shopping FAQ</li>
+            </ul>
+            <ul>
+               <li>Programs</li>
+               <li>Business Account Benefits</li>
+               <li>Data Recovery</li>
+               <li>Recycle Program</li>
+               <li>Western Digital Credit</li>
+               <li>Partner Programs</li>
+               <li>Affiliate Program</li>
+               <li>Philanthropic Programs</li>
+               <li>Western Digital Capital</li>
+            </ul>
+            <ul>
+               <li>Company</li>
+               <li>About Us</li>
+               <li>News & Events</li>
+               <li>Leadership</li>
+               <li>Corporate Responsibility</li>
+               <li>Privacy Center</li>
+               <li>Blog</li>
+               <li>Careers</li>
+               <li>Investors</li>
+               <li>Office Locations</li>
+               <li>Contact Us</li>
+            </ul>
+            <div class="support">
+               <ul>
+                  <li>Support</li>
+                  <li>Get Help</li>
+                  <li>Resource Library</li>
+                  <li>Product Security</li>
+               </ul>
+               <p>Online Store Support:</p>
+               <p>US 855-493-7867</p>
+               <p>Monday — Friday, 8am — 5pm PST</p>
+            </div>
+         </div>
+         <p>Privacy Legal Cookie Statement About Ads Trademarks Terms of Sale Product Compliance Do Not Sell or Share My Personal Information 
+            Cookie Preferences
+         </p>
+         <h5></h5>
+         <p>© 2023 Western Digital Corporation in Collaboration with Martin Schaapherder All rights reserved.</p>
+      </footer>
+      <script defer src="scripts/index.js"></script>
+   </body>
 </html>
