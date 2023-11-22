@@ -28,12 +28,13 @@
 
   #### Screenshot(s) van de eerste pagina (small screen): 
 
-  hier de naam van de pagina  
+  Homepage
   <img src="readme-images/afbeelding-homepagina.png" width="375px" alt="omschrijving van de pagina">
 
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Product pagina 
+  
   <img src="readme-images/afbeelding-2depagina.png" width="375px" alt="omschrijving van de pagina">
  
 </details>
@@ -48,11 +49,11 @@
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen:
 
-  Headings worden duidelijk uitgesproken en zijn goed te navigeren.
+  - Headings worden duidelijk uitgesproken en zijn goed te navigeren.
   
-  Links van producten zijn erg duidelijk er wordt gezegd welk product het om gaat en hoeveel het kost.
+  - Links van producten zijn erg duidelijk er wordt gezegd welk product het om gaat en hoeveel het kost.
   
-  Learn more links geven ook aan waar de Learn more link over gaat.
+  - Learn more links geven ook aan waar de Learn more link over gaat.
   
 
 </details>
@@ -127,13 +128,9 @@
 
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
-
+  
+  - al mijn vragen zijn beantwoord en ik nog aardig wat geleerd van de vragen van mijn mede studenten.
+    
 </details>
 
 
@@ -143,10 +140,15 @@
 ## Voortgang 2 (week 3)
 
 <details>
-  <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  hier dit ging goed & dit was lastig
+  
+  - ik moet een carousel maken maar geen idee hoe ik dit moet doen.
+  - af en toe frustrerende dingen maar uiteindelijk kom ik er wel uit.
+  - het gaat wel oke maar ik moet er meer tijd insteken anders raak ik achter.
+
+    vergeten fotos te maken
 
 
   ### Agenda voor meeting
@@ -187,7 +189,8 @@
 
   ### Verslag van meeting
 
-- ik ben goed geholpen door de student assistenten en ik kan weer verde met coderen.
+- ik ben goed geholpen door de student assistenten en ik kan weer verdre met coderen.
+- ik heb een beter idee van hoe ik verder kan gaan met een carousel maar het gaat niet heel makkelijk worden
 
 </details>
 
@@ -215,8 +218,10 @@
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  - ik had vooral problemen met het mijn nav bar die niet bleef staan en er zit nog een element boven die wel weg moet als er gescrold wordt
+  - voor de rest ging het prima maar ik moet er nog meer tijd in steken om wat meer resultaat te zien, want het lukt wel maar het kost gewoon veel tijd
+    
+  vergeten fotos te maken
 
   ### Agenda voor meeting
   
@@ -255,12 +260,9 @@
 - Waar kan ik het beste terecht als ik hierna tegen problemen oploop met Javascript?
 
   ### Verslag van meeting
-  hier na afloop snel de uitkomsten van de meeting vastleggen
-
-  - punt 1
-  - punt 2
-  - nog een punt
-  - ...
+  
+  - eindelijk het probleem met de navbar opgelost.
+  - ik weet wat ik moet doen en dat is meer coderen en er meer tijd in steken.
 
 </details>
 
