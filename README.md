@@ -27,8 +27,10 @@
   [Western Digital](https://www.westerndigital.com/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
- Home pagina
-  <img src="readme-images/breakdownwebsite.jpg" width="375px" alt="omschrijving van de pagina">
+
+  hier de naam van de pagina  
+  <img src="readme-images/afbeelding-homepagina.png" width="375px" alt="omschrijving van de pagina">
+
 
   #### Screenshot(s) van de tweede pagina (small screen):
   Product pagina 
