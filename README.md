@@ -27,8 +27,8 @@
   [Western Digital](https://www.westerndigital.com/)
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-
   Homepage
+  
   <img src="readme-images/afbeelding-homepagina.png" width="375px" alt="omschrijving van de pagina">
 
 
@@ -201,10 +201,12 @@
 ## Toegankelijkheidstest 2/2 (week 4)
 
 <details>
-  <summary>uitwerken na test in 9<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  
+  - WCAG checklist voor zover ik het kon testen was dat goed.
+  - mensen met kleuren blindheid, contrastproblemen en blurry vision kunnen mijn website goed bezoeken.
+  - nog wel wat problemen met de screenreader
 
 </details>
 
@@ -276,19 +278,24 @@
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  <img src="readme-images/home-page-af-smallscreen.png" width="375px" alt="home-page-af-smallscreen">
+    <img src="readme-images/home-page-af-largescreen.png" width="375px" alt="home-page-af-largescreen">
+      <img src="readme-images/product-af-smallscreen.png" width="375px" alt="product-af-smallscreen">
+        <img src="readme-images/product-af-largescreen.png" width="375px" alt="product-af-largescreen">
 
 
   ### Dit ging goed/Heb ik geleerd: 
-  Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  ik heb een stuk meer geleerd over grid en media queries
+  ook meer over javascript schrijven is nog erg moeilijk maar het lezen gaat best prima
 
 
   ### Dit was lastig/Is niet gelukt:
-  Korte omschrijving met plaatjes
-
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  
+  er kan altijd meer ik vind het jammer dat ik weinig tijd had. door werk, ander school werk en slecht indelen van mijn eigen tijd maar zo heb ik het nu eenmaal zelf gedaan.
+  door weinig tijd heb ik ook wel op wat plekken classes gebruikt om ze te kunnen selecteren omdat ik net iets te ongeduldig was maar ik kan het wel zoals de foto hieronder laat zien zonder te spieken bij de atwoorden!!!
+  <img src="readme-images/bewijs.png" width="375px" alt="bewijs css diner">
+  
 </details>
 
 
@@ -318,6 +325,6 @@
 
  12. https://www.unicodepedia.com/unicode/miscellaneous-symbols/2605/black-star/ icoontjes
 
- 13. https://grid.layoutit.com/
+ 13. https://grid.layoutit.com/ grid template
   
 </details>
